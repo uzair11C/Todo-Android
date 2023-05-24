@@ -7,9 +7,9 @@
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/reactFavicon.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#191970"
     },
     "assetBundlePatterns": [
       "**/*"
@@ -19,12 +19,18 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/reactFavicon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.uzair_abdullah.todoandroid"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "3befb000-31c5-4978-a67a-2902bda33598"
+      }
     }
   }
 }
